@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet"/>
+    <title>Calculator</title>
+</head>
+<main>
+    <body>
+      <div class="flexbox">
+        <section>
+            <h1>Number 1</h1>
+            <span class="value">0</span>
+            <div class="button-container">
+              <button class="btn decrease10">-10</button>
+              <button class="btn decrease">Decrease</button>
+              <button class="btn reset">Reset</button>
+              <button class="btn increase">Increase</button>
+              <button class="btn increase10">+10</button>
+            </div>
+        </section>
+        <section>
+            <h1>Operation</h1>
+            <span class="operation">+</span>
+            <div class="button-container">
+              <button class="plus">Plus</button>
+              <button class="minus">Minus</button>
+              <button class="multiply">Multiply</button>
+              <button class="divide">Divide</button>
+            </div>
+        </section>  
+        <section>
+            <h1>Number 2</h1>
+            <span class="value2">0</span>
+            <div class="button-container">
+              <button class="btn2 decrease10">-10</button>
+              <button class="btn2 decrease">Decrease</button>
+              <button class="btn2 reset">Reset</button>
+              <button class="btn2 increase">Increase</button>
+              <button class="btn2 increase10">+10</button>
+            </div>
+        </section>
+      </div>
+      <div class = "flexcontainer">
+        <button class = "clear">Clear</button>
+        <section>
+          <button class = "calculate">Calculate</button>
+          <span class="total">0</span>
+        </section>
+      </div>
+    </body>
+    <script src = "calculator.js" defer></script>
+</main>
+</html>
